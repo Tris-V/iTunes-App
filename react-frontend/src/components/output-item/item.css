@@ -1,0 +1,60 @@
+/* Item output styling*/
+.output-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.output-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  margin: 2px auto;
+  padding: 10px;
+  font-size: medium;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+.output-item .img-text {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: bold;
+}
+.output-item .btns {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.output-item .heart-btn button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  color: #00000035;
+  transition: color 0.3s ease;
+}
+.output-item .heart-btn .clicked {
+  color: rgb(242, 23, 59);
+}
+.output-item .more-info-btn button {
+  padding: 8px 15px;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: #a3bccb;
+  color: rgb(255, 255, 255);
+  border: none;
+  transition: background-color 0.5s ease, border-color 0.5s ease;
+}
+.output-item .more-info-btn button:hover {
+  background-color: #5e7583;
+}

@@ -1,0 +1,40 @@
+/* Favorites styling */
+.favorites-container .back-btn,
+.favorites-container .spacer {
+  width: 120px;
+}
+.favorites-container .back-btn .btn {
+  width: 120px;
+  font-size: 17px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #d6303b;
+  border-color: #d63031;
+  transition: background-color 0.5s ease, border-color 0.5s ease;
+}
+.favorites-container .back-btn .btn:hover {
+  background-color: #9f2727;
+  border-color: #9f2727;
+}
+.favorites {
+  padding: 90px 60px 30px;
+}
+.favorites .empty {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+.fav-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.no-fav {
+  font-size: medium;
+  margin-top: 165px;
+}

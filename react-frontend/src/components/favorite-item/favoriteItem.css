@@ -1,0 +1,48 @@
+/* Favorite item styling */
+.fav-item {
+  display: flex;
+  align-items: center;
+  width: 45%;
+  background-color: #ffffffd8;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px 0 #33333330;
+  border: currentColor;
+  gap: 15px;
+}
+.fav-item .img-text {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000030;
+}
+.fav-item .item-info {
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+}
+.fav-item .item-info span {
+  font-weight: 500;
+}
+.fav-item .btns {
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.fav-item .remove-btn button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  color: rgb(78, 78, 78);
+}
+.fav-item .remove-btn button:hover {
+  color: rgb(35, 35, 35);
+  background-color: transparent;
+}
+.fav-item .view-more-btn button {
+  padding: 0px 5px;
+  font-size: 14px;
+}

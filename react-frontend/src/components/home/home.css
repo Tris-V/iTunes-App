@@ -1,0 +1,12 @@
+/* Home styling */
+.header-section {
+  width: 100%;
+  background-color: #171b16;
+  position: fixed;
+}
+.search-and-output {
+  padding: 85px 60px 30px;
+}
+.search-container-section {
+  margin-bottom: 15px;
+}

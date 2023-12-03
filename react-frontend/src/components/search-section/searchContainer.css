@@ -1,0 +1,30 @@
+/* Search container styling*/
+.search-container {
+  background-color: white;
+  width: 33%;
+  margin: auto;
+  padding: 15px;
+  border-radius: 25px;
+  box-shadow: 0 5px 5px 0 #00000030;
+  border: currentColor;
+}
+form {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+}
+.search-box {
+  width: 45%;
+  max-width: 350px;
+}
+.filter {
+  width: 30%;
+  max-width: 200px;
+}
+.submit-btn .btn {
+  width: 100px;
+  transition: background-color 0.5s ease, border-color 0.5s ease;
+}
